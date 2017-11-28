@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="47e61ca4-cefa-415e-9ed8-9aa39d500085" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/create3/dist/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,7 +17,7 @@
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index.html">
+        <entry file="file://$PROJECT_DIR$/create3/dist/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
               <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
@@ -81,6 +81,17 @@
               <item name="molliemaarten.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="molliemaarten.github.io" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="molliemaarten.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="molliemaarten.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="create3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="molliemaarten.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="molliemaarten.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="create3" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -92,6 +103,12 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Github\molliemaarten.github.io\create3\dist" />
+      <recent name="C:\Github\molliemaarten.github.io\create3" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -115,12 +132,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1511869273009</updated>
-      <workItem from="1511869274195" duration="30000" />
+      <workItem from="1511869274195" duration="225000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30000" />
+    <option name="totallyTimeSpent" value="225000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="694" y="-13" width="974" height="1047" extended-state="0" />
@@ -155,7 +172,7 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/create3/dist/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
