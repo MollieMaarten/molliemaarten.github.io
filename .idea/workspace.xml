@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="47e61ca4-cefa-415e-9ed8-9aa39d500085" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/create3/dist/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/create3/dist/index.html" afterPath="$PROJECT_DIR$/create3/dist/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -42,6 +42,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/create3/dist/index.html" />
       </list>
     </option>
   </component>
@@ -132,12 +133,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1511869273009</updated>
-      <workItem from="1511869274195" duration="225000" />
+      <workItem from="1511869274195" duration="320000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="225000" />
+    <option name="totallyTimeSpent" value="320000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="694" y="-13" width="974" height="1047" extended-state="0" />
