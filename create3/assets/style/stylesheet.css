@@ -15,19 +15,35 @@ body{
 #MainJumbotron {
   padding:10px;
   background-color:#e26326;
-    margin-left: 250px;
-    margin-right: 250px;
 }
 
 figure{
     float:left;
 }
 
+.divspan span{
+    margin-right:50px;
+    margin-left:5px;
+}
+
+.divspan{
+    display: inline-block;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.divspan figure img{
+    height: 20px;
+    width: 20px;
+    color:#e26326;
+}
+
+
 .jumbotron {
-    background: white;
+    background: black;
     border-radius: 80px 20px;
     padding: 40px;
     padding-bottom: 80px;
+
 }
 
 .jumbotronText{
@@ -38,6 +54,7 @@ figure{
   max-height:300px;
   max-width:300px;
     margin-left: 30px;
+    margin-right: 45px;
     margin-bottom: 30px;
     float: left;
 }
@@ -48,6 +65,35 @@ figure{
     font-size: 20px;
 }
 
+@media screen and (min-width: 480px){
+    #MainJumbotron{
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+}
+
+@media screen and (max-width: 320px){
+
+    #MainJumbotron{
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .imgJumbetron{
+        visibility: hidden;
+    }
+
+    .jumbotronText{
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 900px){
+    #MainJumbotron{
+        margin-left: 250px;
+        margin-right: 250px;
+    }
+}
 
 
 
