@@ -1,10 +1,42 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <title>Past dit het automatisch aan?</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design</title>
+    <link rel="stylesheet" href="../assets/style/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/style/ContactForm.css">
+    <link rel="stylesheet" href="../assets/style/stylesheet.css">
 </head>
+
 <body>
-<p>Dit is een test voor de zoveelste keer</p>
+    <div id="Main">
+        <div class="jumbotron"><img src="assets/img/edward-guk-357344.jpg">
+            <h1>Heading text</h1>
+            <p>Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam.</p>
+            <p><a class="btn btn-default" role="button" href="#">Learn more</a></p>
+        </div>
+    </div>
+    <div class="contact-clean">
+        <form method="post">
+            <h2 class="text-center">Contact us</h2>
+            <div class="form-group has-success has-feedback">
+                <input class="form-control" type="text" name="name" placeholder="Name"><i class="form-control-feedback glyphicon glyphicon-ok" aria-hidden="true"></i></div>
+            <div class="form-group has-error has-feedback">
+                <input class="form-control" type="email" name="email" placeholder="Email"><i class="form-control-feedback glyphicon glyphicon-remove" aria-hidden="true"></i>
+                <p class="help-block">Please enter a correct email address.</p>
+            </div>
+            <div class="form-group">
+                <textarea class="form-control" rows="14" name="message" placeholder="Message"></textarea>
+            </div>
+            <div class="form-group">
+                <button class="btn btn-primary" type="submit">send </button>
+            </div>
+        </form>
+    </div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
 </body>
+
 </html>

@@ -1,0 +1,14 @@
+#Main {
+  text-align:center;
+  padding:40px;
+}
+
+.jumbotron .h1, .jumbotron h1 {
+  text-align:right;
+}
+
+img {
+  max-height:200px;
+  max-width:200px;
+}
+
