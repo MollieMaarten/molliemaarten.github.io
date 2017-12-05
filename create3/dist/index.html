@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="../assets/style/bootstrap.min.css">
     <link rel="stylesheet" href="../assets/style/ContactForm.css">
     <link rel="stylesheet" href="../assets/style/stylesheet.css">
+
 </head>
 
 <body>
@@ -17,32 +18,54 @@
     </div>
     <div id="MainJumbotron">
         <div class="jumbotron">
+            <div class="divswitch">
+                <figure>
+                    <span>
+                        VEGAN
+                    </span>
+                    <label class="switch">
+                <input type="checkbox" id="veggie">
+                <span class="slider round"></span>
+            </label>
+                </figure>
+                <figure>
+                    <span>PESCETARIAN</span>
+                     <label class="switch">
+                <input type="checkbox" id="pesc">
+                <span class="slider round"></span>
+            </label>
+                </figure>
+            </div>
             <figure><img class="imgJumbetron" src="../assets/Images(test)/edward-guk-357344.jpg"></figure>
             <div class="jumbotronText">
-                <h1>Homemade Hamburger</h1>
+                <h1>Klassieke Hamburger</h1>
                 <div class="divspan">
                     <figure>
                         <img src="../assets/Images(test)/Icons/clock.png"/>
-                        <span>COOK:30MINS</span>
+                        <span>COOK: 30MINS</span>
                     </figure>
-
-                    <figure>
-                        <img src="../assets/Images(test)/Icons/fire.png"/>
+                    <figure id="cal">
+                        <img src=\"../assets/Images(test)/Icons/fire.png\"/>
                         <span>375 CALORIES</span>
                     </figure>
-
-                    <figure>
+                    <figure id="serves">
                         <img src="../assets/Images(test)/Icons/meal.png"/>
                         <span>SERVES 4</span>
                     </figure>
                 </div>
-            <p >Slow-cooked onions add moisture and flavor to these lean beef burgers.
-A quick blend of mayonnaise, ketchup, relish and vinegar
-makes a perfect tangy, sweet and creamy “special sauce” for this burger.
-We love the dill relish here, but use sweet relish if you prefer it.
-Serve with sweet potato fries.</p>
-            <p>
-            </div><a class="btn btn-default" role="button" href="#">Click for more</a></p>
+
+                <div>
+                    <ul class="ingredient-list"></ul>
+                </div>
+
+                <div class="show-more">
+                    <a class="btn btn-default" role="button" href="#">Show more</a>
+                </div>
+
+                <div id="recipe" class="hideContent">
+                    <p>Dit is de Hide Content, dit mag je niet ZIEN</p>
+                </div>
+            </div>
         </div>
     </div>
     <div class="contact-clean">
@@ -63,5 +86,7 @@ We love the dill relish here, but use sweet relish if you prefer it.
         </form>
     </div>
 </body>
-
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="https://code.jquery.com/ui/1.12.0/jquery-ui.js"></script>
+<script src="../assets/scripts/script.js"></script>
 </html>
