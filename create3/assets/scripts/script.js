@@ -32,6 +32,7 @@ function doCall(){
                         $(".divspan #cal>span").html(response.nutritionEstimates[randomrecipe].value + " CALORIES");
                     }
                     $(".divspan #serves>span").html("SERVINGS " + response.numberOfServings);
+                    $("#recipe").html("<a target='_blank' href='"+response.source.sourceRecipeUrl+"'>Bekijk origineel recept</a>");
                }
            });
 

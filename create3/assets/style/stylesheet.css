@@ -45,6 +45,10 @@ figure{
 
 }
 
+#recipe a{
+    color: hotpink;
+}
+
 .jumbotronText{
     align-content: flex-end;
 }
