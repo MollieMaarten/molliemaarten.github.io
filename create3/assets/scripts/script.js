@@ -12,10 +12,10 @@ $(document).ready(function(){
 
 function doCall(){
     $.ajax({
-           url: "http://api.yummly.com/v1/api/recipes?_app_id="+appid+"&_app_key="+appkey+"&q="+zoekDitRecept+veggie+pesc,
+           url: "https://api.yummly.com/v1/api/recipes?_app_id="+appid+"&_app_key="+appkey+"&q="+zoekDitRecept+veggie+pesc,
            success: function (res) {
                $.ajax({
-                   url: "http://api.yummly.com/v1/api/recipe/"+res.matches[randomrecipe].id+"?_app_id="+appid+"&_app_key="+appkey,
+                   url: "https://api.yummly.com/v1/api/recipe/"+res.matches[randomrecipe].id+"?_app_id="+appid+"&_app_key="+appkey,
                    success: function (response) {
                         $('.jumbotronText h1').html(response.name);
                         $('.jumbotronText .divspan figure:nth-child(1) span').html("COOK: " + response.totalTimeInSeconds/60 + " mins");
