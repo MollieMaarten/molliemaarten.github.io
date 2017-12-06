@@ -39,37 +39,54 @@
             <figure><img class="imgJumbetron" src="../assets/Images(test)/edward-guk-357344.jpg"></figure>
             <div class="jumbotronText">
                 <h1>Klassieke Hamburger</h1>
-                <div class="divspan">
-                    <figure>
-                        <img src="../assets/Images(test)/Icons/clock.png"/>
-                        <span>COOK: 30MINS</span>
-                    </figure>
-                    <figure id="cal">
-                        <img src=\"../assets/Images(test)/Icons/fire.png\"/>
-                        <span>375 CALORIES</span>
-                    </figure>
-                    <figure id="serves">
-                        <img src="../assets/Images(test)/Icons/meal.png"/>
-                        <span>SERVES 4</span>
-                    </figure>
-                </div>
-
-                <div>
-                    <ul class="ingredient-list"></ul>
-                </div>
 
                 <div class="show-more">
                     <a class="btn btn-default" role="button" href="#">Show more</a>
                 </div>
 
                 <div id="recipe" class="hideContent">
+                    <div class="divspan">
+                        <figure>
+                         <img src="../assets/Images(test)/Icons/clock.png"/>
+                            <br/>
+                            <span>TIME</span>
+                         <br/>
+                         <div id="cook">
+                             <span></span>
+                         </div>
 
+                         </figure>
+                    <figure id="hidecal">
+                        <img src="../assets/Images(test)/Icons/fire.png"/>
+                        <br/>
+                        <span>CALORIES</span>
+                        <br/>
+                        <div id="cal">
+                            <span></span>
+                        </div>
+                    </figure>
+                    <figure>
+                        <img src="../assets/Images(test)/Icons/meal.png"/>
+                        <br/>
+                        <span>SERVES</span>
+                        <br/>
+                        <div id="serves">
+                            <span></span>
+                        </div>
+                    </figure>
+                    </div>
+                    <div>
+                        <ul class="ingredient-list"></ul>
+                    </div>
+                    <div id="recipelink">
+
+                    </div>
                 </div>
             </div>
         </div>
     </div>
     <div class="contact-clean">
-        <form method="post">
+        <form method="post" name="myemailform" action="form-to-email.php">
             <h2 class="text-center">Say Hello!</h2>
             <div class="form-group has-success has-feedback">
                 <input class="form-control" type="text" name="name" placeholder="Name"><i class="form-control-feedback glyphicon glyphicon-ok" aria-hidden="true"></i></div>
@@ -84,8 +101,19 @@
                 <button class="btn btn-primary" type="submit">send </button>
             </div>
         </form>
+
+        <script language="JavaScript">
+            // Code for validating the form
+            // Visit http://www.javascript-coder.com/html-form/javascript-form-validation.phtml
+            // for details
+            var frmvalidator  = new Validator("myemailform");
+            frmvalidator.addValidation("name","req","Please provide your name");
+            frmvalidator.addValidation("email","req","Please provide your email");
+            frmvalidator.addValidation("email","email","Please enter a valid email address");
+        </script>
     </div>
 </body>
+<script src="../assets/scripts/form-to-email.php"></script>
 <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.js"></script>
 <script src="../assets/scripts/script.js"></script>
