@@ -24,7 +24,7 @@ function doCall(){
                     $('.jumbotron>figure>img').attr("src",response.images[0].hostedLargeUrl);
                     $('.ingredient-list').empty();
                     for(var i in response.ingredientLines){
-                        $('.ingredient-list').append("<li>" + response.ingredientLines[i] + "</li>");
+                        $('.ingredient-list').append("<li>" + response.ingredientLines[i] + "</li>" + "<li>--------------------</li>");
                     }
                     if(response.nutritionEstimates.length == 0){
                         $(".divspan #hidecal").hide();
