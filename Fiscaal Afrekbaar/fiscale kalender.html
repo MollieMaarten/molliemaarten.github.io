@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="assets/img/basic/favicon.ico" type="image/x-icon">
+    <title>Fiscaal Aftrekbaar</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/app.css">
+    <style>
+        .loader {
+            position: fixed;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: #F5F8FA;
+            z-index: 9998;
+            text-align: center;
+        }
+
+        .plane-container {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+        }
+    </style>
+</head>
+<body>
+<!-- Pre loader -->
+<div id="loader" class="loader">
+    <div class="plane-container">
+        <div class="l-s-2 blink">LOADING</div>
+    </div>
+</div>
+
+<div id="app" class="paper-loading">
+<main class="page">
+    <!-- Header -->
+    <nav class="mainnav navbar navbar-default justify-content-between">
+            <div class="container relative">
+                <a class="offcanvas dl-trigger paper-nav-toggle" data-toggle="offcanvas"
+                   aria-expanded="false" aria-label="Toggle navigation">
+                    <i></i>
+                </a>
+                <a class="navbar-brand" href="index.html">
+                    <img class="d-inline-block align-top" alt="" src="assets/img/basic/fiscaal aftrekbaar logo.jpg">
+                </a>
+                <div class="paper_menu">
+                    <div id="dl-menu" class="xv-menuwrapper responsive-menu">
+            <ul class="dl-menu align-items-center">
+                <li><a href="#">Home</a></li>
+                <li class="parent"><a href="#">Bedrijven</a>
+                    <ul class="lg-submenu">
+                        <li><a href="fiscale tabel.html">Fiscale tabel</a>
+                        <li><a href="fiscale kalender.html">Fiscale kalender</a>
+                        
+                        <li><a href="actualiteit.html">Actualiteit</a>
+                        <li><a href="andere topics.html">Andere topics</a>
+                        <li><a href="advies.html">Advies</a>
+                        
+                    </li>
+                    </ul>
+                </li>
+                <li class="parent"><a href="#">Archief</a>
+                    <ul class="lg-submenu" style="width: 300px">
+                        <li class="p-0">
+                            <div class="p-4">
+                                <div class="my-3">
+                                    <a href="blog.html">
+                                        <div class="media">
+                                            <i class="icon-circle-o w-20 s-36 text-primary"></i>
+                                            <div class="media-body">
+                                                <span class="mt-0 mb-0 font-weight-normal s-12">Bedrijven<br></span>
+                                                <span class="s-12">Extra uitleg per thema voor bedrijven</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="my-3">
+                                    <a href="single.html">
+                                        <div class="media">
+                                            <i class="icon-circle-o w-20 s-36 text-warning"></i>
+                                            <div class="media-body">
+                                                <span class="mt-0 mb-0 font-weight-normal s-12">Particulieren<br></span>
+                                                <span class="s-12">Extra uitleg per thema voor particulieren</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <!--
+                                <div class="my-3">
+                                    <a href="single2.html">
+                                        <div class="media">
+                                            <i class="icon-circle-o w-20 s-36 text-info"></i>
+                                            <div class="media-body">
+                                                <span class="mt-0 mb-0 font-weight-normal s-12">Blog Single 2<br></span>
+                                                <span class="s-12"> A Post Style</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>-->
+                            <div class="light p-5">
+                                
+                                <p>
+                                    Hier vindt u extra uitleg en recente artikels over verschillende onderwerpen.
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="login.html">
+                    Login
+                </a>
+                </li>
+                <li><a href="register.html" class="btn btn-default nav-btn">Sign
+                    Up</a>
+                </li>
+            </ul>
+</div>
+<!-- Login modal -->
+        </div>
+    </div>
+</nav>
+    <div class="search-section">
+        <div class="container">
+            <h1>Fiscale Kalender
+                
+            </h1>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <aside class="main-sidebar ">
+                    <div class="">
+                        <section class="sidebar p-t-b-40">
+
+                            <ul class="sidebar-menu scroll">
+                                <!--
+                                <li>
+                                    <a href="#introduction">
+                                        <i class="icon icon-smiling-face"></i> <span>Introduction</span>
+                                    </a>
+                                </li>-->
+                                <li class="treeview">
+                                    <a href="#">
+                                        <i class="icon icon-folders"></i>
+                                        <span>Fiscale Kalender</span>
+                                        
+                                    </a>
+                                    <ul class="treeview-menu">
+                                        <li><a href="#structure"><i class="icon icon-circle-o"></i> Januari</a>
+                                        </li>
+                                        <li><a href="#partials"><i class="icon icon-circle-o"></i> Februari</a></li>
+                                        <li><a href="#onthaal"><i class="icon icon-circle-o"></i> Maart</a></li>
+                                        <li><a href="#april"><i class="icon icon-circle-o"></i> April</a></li>
+                                        <li><a href="#mei"><i class="icon icon-circle-o"></i> Mei</a></li>
+                                        <li><a href="#juni"><i class="icon icon-circle-o"></i> Juni</a></li>
+                                        <li><a href="#juli"><i class="icon icon-circle-o"></i> Juli</a></li>
+                                        <li><a href="#augustus"><i class="icon icon-circle-o"></i> Augustus</a></li>
+                                        <li><a href="#september"><i class="icon icon-circle-o"></i> September</a></li>
+                                        <li><a href="#oktober"><i class="icon icon-circle-o"></i> Oktober</a></li>
+                                        <li><a href="#november"><i class="icon icon-circle-o"></i> November</a></li>
+                                        <li><a href="#december"><i class="icon icon-circle-o"></i> December</a></li>
+                                    </ul>
+                                
+                            </ul>
+                        </section>
+                    </div>
+                    <!-- /.sidebar -->
+                </aside>
+            </div>
+            <!--
+            <article class="col-md-9 p-b-40 b-l p-40">
+                <section id="introduction">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h4><i class="icon icon-smiling-face"></i> Introduction</h4>
+                            <hr>
+                            <p>
+                                Thank you for purchasing this template. We covered almost everything in this document that
+                                how easily you can setup. If you have any questions that
+                                are beyond the scope of this help file, please feel free to contact us..
+                            </p>
+                        </div>
+                    </div>
+                </section>-->
+                
+                <section id="structure" class="">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h4><i class="icon icon-folders"></i> Januari</h4>
+                            <table class="table table-bordered table-striped">
+                                    <thead>
+                                    <tr>
+                                        <th scope="row">Datum</th>
+                                        <th>Gebeurtenis</th>
+                                        
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    <tr>
+                                        
+                                    </tr>
+                               
+                                    </tbody>
+                                </table>
+                            
+                            </blockquote>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="table-responsive">
+                            </div>
+                        </div>
+                    </div>
+                    <section id="partials">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <h3><i class="icon icon-folders"></i> Februari</h3>
+                                <hr>
+                                
+                                <table class="table table-bordered table-striped">
+                                    <thead>
+                                            <th scope="row">Datum</th>
+                                            <th>Gebeurtenis</th>
+                                             
+                                    </thead>
+                                    <tbody>
+                                    
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </section>
+                    <section id="maart">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h3><i class="icon icon-folders"></i> Maart</h3>
+                                    <hr>
+                                    
+                                    <table class="table table-bordered table-striped">
+                                        <thead>
+                                                <th scope="row">Datum</th>
+                                                <th>Gebeurtenis</th>
+                                                 
+                                        </thead>
+                                        <tbody>
+                                        
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </section>
+                        <section id="april">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <h3><i class="icon icon-folders"></i> April</h3>
+                                        <hr>
+                                        
+                                        <table class="table table-bordered table-striped">
+                                            <thead>
+                                                    <th scope="row">Datum</th>
+                                                    <th>Gebeurtenis</th>
+                                            </thead>
+                                            <tbody>
+                                            
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </section>
+                            <section id="mei">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <h3><i class="icon icon-folders"></i> Mei</h3>
+                                            <hr>
+                                            
+                                            <table class="table table-bordered table-striped">
+                                                <thead>
+                                                        <th scope="row">Datum</th>
+                                                        <th>Gebeurtenis</th> 
+                                                </thead>
+                                                <tbody>
+                                                
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </section>
+                                <section id="juni">
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <h3><i class="icon icon-folders"></i> Juni</h3>
+                                                <hr>
+                                                
+                                                <table class="table table-bordered table-striped">
+                                                    <thead>
+                                                            <th scope="row">Datum</th>
+                                                <th>Gebeurtenis</th>
+                                                    </thead>
+                                                    <tbody>
+                                                    
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </section>
+                                    <section id="juli">
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <h3><i class="icon icon-folders"></i> Juli</h3>
+                                                    <hr>
+                                                    
+                                                    <table class="table table-bordered table-striped">
+                                                        <thead>
+                                                                <th scope="row">Datum</th>
+                                                                <th>Gebeurtenis</th>
+                                                        </thead>
+                                                        <tbody>
+                                                        
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                            </div>
+                                        </section>
+                
+                                        <section id="augustus">
+                                                <div class="row">
+                                                    <div class="col-md-12">
+                                                        <h3><i class="icon icon-folders"></i> Augustus</h3>
+                                                        <hr>
+                                                        
+                                                        <table class="table table-bordered table-striped">
+                                                            <thead>
+                                                                    <th scope="row">Datum</th>
+                                                                    <th>Gebeurtenis</th>
+                                                            </thead>
+                                                            <tbody>
+                                                            
+                                                            </tbody>
+                                                        </table>
+                                                    </div>
+                                                </div>
+                                            </section> 
+                                            <section id="september">
+                                                    <div class="row">
+                                                        <div class="col-md-12">
+                                                            <h3><i class="icon icon-folders"></i> September</h3>
+                                                            <hr>
+                                                            
+                                                            <table class="table table-bordered table-striped">
+                                                                <thead>
+                                                                        <th scope="row">Datum</th>
+                                                                        <th>Gebeurtenis</th>
+                                                                </thead>
+                                                                <tbody>
+                                                                
+                                                                </tbody>
+                                                            </table>
+                                                        </div>
+                                                    </div>
+                                        
+                                            </section> 
+                                            
+                                            <section id="oktober">
+                                                    <div class="row">
+                                                        <div class="col-md-12">
+                                                            <h3><i class="icon icon-folders"></i> Oktober</h3>
+                                                            <hr>
+                                                            
+                                                            <table class="table table-bordered table-striped">
+                                                                <thead>
+                                                                        <th scope="row">Datum</th>
+                                                                        <th>Gebeurtenis</th>
+                                                                </thead>
+                                                                <tbody>
+                                                                
+                                                                </tbody>
+                                                            </table>
+                                                        </div>
+                                                    </div>
+                                                </section>  
+                                                <section id="november">
+                                                        <div class="row">
+                                                            <div class="col-md-12">
+                                                                <h3><i class="icon icon-folders"></i> November</h3>
+                                                                <hr>
+                                                                
+                                                                <table class="table table-bordered table-striped">
+                                                                    <thead>
+                                                                            <th scope="row">Datum</th>
+                                                                            <th>Gebeurtenis</th>
+                                                                    </thead>
+                                                                    <tbody>
+                                                                    
+                                                                    </tbody>
+                                                                </table>
+                                                            </div>
+                                                        </div>
+                                                    </section>  
+                                                    <section id="december">
+                                                            <div class="row">
+                                                                <div class="col-md-12">
+                                                                    <h3><i class="icon icon-folders"></i> December</h3>
+                                                                    <hr>
+                                                                    
+                                                                    <table class="table table-bordered table-striped">
+                                                                        <thead>
+                                                                                <th scope="row">Datum</th>
+                                                                                <th>Gebeurtenis</th>
+                                                                        </thead>
+                                                                        <tbody>
+                                                                        
+                                                                        </tbody>
+                                                                    </table>
+                                                                </div>
+                                                            </div>
+                                                        </section>           
+                                    </section>
+                
+                </div>
+            </article>
+        </div>
+    </div>
+</main>
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class=" col-lg-2 col-xl-3 col-12 responsive-phone"><a href="#" class="brand">
+                <img src="assets/img/basic/logo.png" alt="Knowledge">
+                <span class="circle"></span>
+            </a>
+            </div>
+            <div class="col-6  col-md-4 col-lg-2">
+                <h6>Quick Links</h6>
+                <ul class="footer-links">
+                    <li><a href="#">Features</a>
+                    </li>
+                    <li><a href="#">Blog</a>
+                    </li>
+                    <li><a href="#">Community</a>
+                    </li>
+                    <li><a href="login.html">Login</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-6  col-md-4 col-lg-2">
+                <h6>Knowledgebase</h6>
+                <ul class="footer-links">
+                    <li><a href="#">Features</a>
+                    </li>
+                    <li><a href="#">Blog</a>
+                    </li>
+                    <li><a href="#">Community</a>
+                    </li>
+                    <li><a href="login.html">Login</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-6  col-md-4 col-lg-2">
+                <h6>About Us</h6>
+                <ul class="footer-links">
+                    <li><a href="#">Features</a>
+                    </li>
+                    <li><a href="#">Blog</a>
+                    </li>
+                    <li><a href="#">Community</a>
+                    </li>
+                    <li><a href="login.html">Login</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-6 col-md-12 col-12 col-xl-3 responsive-phone">
+                <h6>Connect via Social</h6>
+                <ul class="social">
+                    <li class="facebook"><a href="#"><i class="icon icon-facebook"></i></a>
+                    </li>
+                    <li class="twitter"><a href="#"><i class="icon icon-twitter"></i></a>
+                    </li>
+                    <li class="gplus"><a href="#"><i class="icon icon-google-plus"></i></a>
+                    </li>
+                </ul>
+                <div class="copyrights">
+                    <p>&#xA9; 2018 Paper Knowledgebase Copyrights</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- Login modal -->
+<div class="modal fade" id="modalLogin" tabindex="-1" role="dialog" aria-labelledby="modalLogin">
+    <div class="modal-dialog width-400" role="document">
+        <div class="modal-content no-r "><a href="#" data-dismiss="modal" aria-label="Close"
+                                            class="paper-nav-toggle active"><i></i></a>
+            <div
+                    class="modal-body no-p">
+                <div class="text-center p-40 p-b-0">
+                    <img src="assets/img/dummy/u4.png" alt="">
+                    <h3>Welcome Back</h3>
+                    <p class="p-t-b-20">Hey Soldier welcome back signin now there is lot of new stuff waiting
+                        for you</p>
+                </div>
+                <div class="light p-40 b-t-b">
+                    <form action="dashboard2.html">
+                        <div class="form-group has-icon"><i class="icon-envelope-o"></i>
+                            <input type="text" class="form-control form-control-lg"
+                                   placeholder="Email Address">
+                        </div>
+                        <div class="form-group has-icon"><i class="icon-user-secret"></i>
+                            <input type="text" class="form-control form-control-lg"
+                                   placeholder="Password">
+                        </div>
+                        <input type="submit" class="btn btn-primary btn-lg btn-block" value="Log In">
+                        <small class="forget-pass">Have you forgot your username or password ?</small>
+                    </form>
+                </div>
+                <div class="p-40"><a href="#" class="btn btn-lg btn-block btn-social facebook">
+                    <i class="icon-facebook"></i> Login with Facebook
+                </a>
+                    <a href="#" class="btn btn-lg btn-block btn-social twitter">
+
+                        <i class="icon-twitter"></i> Login with Twitter
+
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- SignUp modal -->
+<div class="modal fade" id="modalSignUp" tabindex="-1" role="dialog" aria-labelledby="modalSignUp">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content no-r "><a href="#" data-dismiss="modal" aria-label="Close"
+                                            class="paper-nav-toggle active"><i></i></a>
+            <div
+                    class="modal-body no-p">
+                <div class="row">
+                    <div class="col-lg-5 grid">
+                        <div class="p-40">
+                            <h5 class="p-t-40">Sign Up Using Social Account</h5>
+                            <p class="p-t-b-20">Hey Soldier welcome back signin now there is lot of new stuff waiting
+                                for you</p> <a href="#" class="btn btn-lg btn-block btn-social facebook">
+                            <i class="icon-facebook"></i> Login with Facebook
+                        </a>
+                            <a href="#" class="btn btn-lg btn-block btn-social twitter">
+
+                                <i class="icon-twitter"></i> Login with Twitter
+
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-7">
+                        <div class="light p-t-b-40">
+                            <div class="p-40">
+                                <h5 class="p-b-20">Create New User Account</h5>
+                                <form action="dashboard2.html ">
+                                    <div class="form-group has-icon"><i class="icon-user-circle"></i>
+                                        <input type="text" class="form-control form-control-lg"
+                                               placeholder="Your Name">
+                                    </div>
+                                    <div class="form-group has-icon"><i class="icon-envelope-o"></i>
+                                        <input type="text" class="form-control form-control-lg"
+                                               placeholder="Email Address">
+                                    </div>
+                                    <div class="form-group has-icon"><i class="icon-user-secret"></i>
+                                        <input type="text" class="form-control form-control-lg"
+                                               placeholder="Password">
+                                    </div>
+                                    <div class="form-group has-icon"><i class="icon-repeat"></i>
+                                        <input type="text" class="form-control form-control-lg"
+                                               placeholder="Confirm Password">
+                                    </div>
+                                    <input type="submit" class="btn btn-primary btn-lg btn-block" value="Sign Up Now">
+                                    <p class="forget-pass">A verification email wil be sent to you</p>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<!--End Page page_wrrapper -->
+<script src="assets/js/app.js"></script>
+
+</body>
+</html>

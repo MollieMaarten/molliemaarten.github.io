@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="assets/img/basic/favicon.ico" type="image/x-icon">
+    <title>Fiscaal Aftrekbaar</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/app.css">
+    <style>
+        .loader {
+            position: fixed;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: #F5F8FA;
+            z-index: 9998;
+            text-align: center;
+        }
+
+        .plane-container {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+        }
+    </style>
+</head>
+<body>
+<!-- Pre loader -->
+<div id="loader" class="loader">
+    <div class="plane-container">
+        <div class="l-s-2 blink">LOADING</div>
+    </div>
+</div>
+
+<div id="app" class="paper-loading">
+<main class="page">
+    <!-- Header -->
+    <nav class="mainnav navbar navbar-default justify-content-between">
+            <div class="container relative">
+                <a class="offcanvas dl-trigger paper-nav-toggle" data-toggle="offcanvas"
+                   aria-expanded="false" aria-label="Toggle navigation">
+                    <i></i>
+                </a>
+                <a class="navbar-brand" href="index.html">
+                    <img class="d-inline-block align-top" alt="" src="assets/img/basic/fiscaal aftrekbaar logo.jpg">
+                </a>
+                <div class="paper_menu">
+                    <div id="dl-menu" class="xv-menuwrapper responsive-menu">
+            <ul class="dl-menu align-items-center">
+                <li><a href="#">Home</a></li>
+                <li class="parent"><a href="#">Bedrijven</a>
+                    <ul class="lg-submenu">
+                        <li><a href="fiscale tabel.html">Fiscale tabel</a>
+                        <li><a href="fiscale kalender.html">Fiscale kalender</a>
+                        
+                        <li><a href="actualiteit.html">Actualiteit</a>
+                        <li><a href="andere topics.html">Andere topics</a>
+                        <li><a href="advies.html">Advies</a>
+                        
+                    </li>
+                    </ul>
+                </li>
+                <li class="parent"><a href="#">Archief</a>
+                    <ul class="lg-submenu" style="width: 300px">
+                        <li class="p-0">
+                            <div class="p-4">
+                                <div class="my-3">
+                                    <a href="blog.html">
+                                        <div class="media">
+                                            <i class="icon-circle-o w-20 s-36 text-primary"></i>
+                                            <div class="media-body">
+                                                <span class="mt-0 mb-0 font-weight-normal s-12">Bedrijven<br></span>
+                                                <span class="s-12">Extra uitleg per thema voor bedrijven</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="my-3">
+                                    <a href="single.html">
+                                        <div class="media">
+                                            <i class="icon-circle-o w-20 s-36 text-warning"></i>
+                                            <div class="media-body">
+                                                <span class="mt-0 mb-0 font-weight-normal s-12">Particulieren<br></span>
+                                                <span class="s-12">Extra uitleg per thema voor particulieren</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <!--
+                                <div class="my-3">
+                                    <a href="single2.html">
+                                        <div class="media">
+                                            <i class="icon-circle-o w-20 s-36 text-info"></i>
+                                            <div class="media-body">
+                                                <span class="mt-0 mb-0 font-weight-normal s-12">Blog Single 2<br></span>
+                                                <span class="s-12"> A Post Style</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>-->
+                            <div class="light p-5">
+                                
+                                <p>
+                                    Hier vindt u extra uitleg en recente artikels over verschillende onderwerpen.
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="register.html" class="btn btn-default nav-btn">Contact</a>
+                </li>
+            </ul>
+        </div>
+<!-- Login modal -->
+        </div>
+    </div>
+</nav>
+    <div class="search-section">
+        <div class="container">
+            <h1>Fiscale Tabel
+                
+            </h1>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <aside class="main-sidebar ">
+                    <div class="">
+                        <section class="sidebar p-t-b-40">
+
+                            <ul class="sidebar-menu scroll">
+                                <li class="treeview">
+                                    <a href="#">
+                                        <i class="icon icon-folders"></i>
+                                        <span>Fiscale tabel</span>
+                                        
+                                    </a>
+                                    <ul class="treeview-menu">
+                                        <li><a href="#structure"><i class="icon icon-circle-o"></i> Restaurantkosten</a>
+                                        </li>
+                                        <li><a href="#partials"><i class="icon icon-circle-o"></i>Relatiegeschenken</a></li>
+                                        <li><a href="#onthaal"><i class="icon icon-circle-o"></i>Onthaal- en receptiekosten</a></li>
+                                        <li><a href="#personenwagen"><i class="icon icon-circle-o"></i>Personenwagens</a></li>
+                                        <li><a href="#boeten"><i class="icon icon-circle-o"></i>Boeten</a></li>
+                                        <li><a href="#sociale voordelen"><i class="icon icon-circle-o"></i>Sociale voordelen</a></li>
+                                        <li><a href="#andere"><i class="icon icon-circle-o"></i>Andere kosten</a></li>
+                                    </ul>
+                            </ul>
+                        </section>
+                    </div>
+                </aside>
+            </div>
+                <section id="structure" class="">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h4><i class="icon icon-folders"></i> Restaurantkosten</h4>
+                            <table class="table table-bordered table-striped">
+                                    <thead>
+                                    <tr>
+                                        <th scope="row" style="width: 15%;">Wat</th>
+                                        <th>Vennootschapsbelasting</th>
+                                        <th>BTW</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    <tr>
+                                        <td>Algemene regel</td>
+                                            <td>69% aftrekbaar</td>
+                                            <td>BTW niet aftrekbaar</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Restaurantkosten door personeel</td>
+                                            <td>100% aftrekbaar (indien de werknemer meer dan vijf uur per dag werkt)</td>
+                                            <td>100% aftrekbaar met correcte factuur (btw-bonnetje volstaat niet) </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Verstrekken van sociale maaltijden aan het personeel in bedrijfsrestaurants</td>
+                                            <td>100% aftrekbaar, als tussenkomst personeelslid minstens 1,09 euro bedraagt.
+                                            <strong>Indien bijdrage minder dan 1,09 euro</strong>: verworpen gedeelte is gelijk aan 1,09 euro - de werknemersbijdrage.
+                                            </td>
+                                            <td>De onderneming is restauranthouder, dus:<ul>
+                                                <li>
+                                                · BTW verschuldigd voor inkomsten uit de maaltijden.</li>
+                                                <li>
+                                                · BTW aftrekbaar voor uitgaven in verband met het restaurant
+                                                </li>
+                                            </ul>
+                                            </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Maaltijden in bedrijfsrestaurant voorbehouden aan kamerleden en zakenrelaties.</td>
+                                            <td>69% aftrekbaar, tenzij volledige kostprijs wordt doorgerekend, dan 100% aftrekbaar.</td>
+                                            <td>Kamerleden volgen de regeling voor personeelsleden.
+                                            Indien er bij zakenrelaties geen vergoeding wordt gevraagd is de BTW niet aftrekbaar. Andersom is er wel recht op aftrek 
+                                            </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Op restaurant gaan met alle werknemers.</td>
+                                            <td>100% aftrekbaar indien één maal per jaar voor alle personeelsleden met een geringe waarde per personeelslid.
+                                            Anders is dit te verwerpen als sociale bijdrage.
+                                            </td>
+                                            <td>BTW niet aftrekbaar, aangezien het buiten de onderneming is.
+                                            </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Restaurantkosten in het kader van een seminarie of studiedag ...</td>
+                                            <td>69% aftrekbaar indien deze restaurantkosten op de factuur zijn gesplitst van de andere seminarie kosten. Indien er geen splitsing is kan de fiscus moeilijk doen over dat de restaurantkosten volledig zijn afgetrokken.</td>
+                                            <td>BTW op lunch niet aftrekbaar, maar de BTW op de seminarie is wel aftrekbaar op voorwaarde dat de seminarie afzonderlijk vermeld wordt.
+                                            </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Restaurantkosten begrepen in hotelrekeningen.</td>
+                                            <td>69% aftrekbaar indien de restaurantkosten duidelijk gesplitst zijn.</td>
+                                            <td>BTW niet aftrekbaar, tenzij maaltijdkosten worden doorgerekend of restaurantkosten gemaakt door werknemers die belast zijn met een levering of dienstverrichting.
+                                            <strong>Voorwaarde</strong>: Geldige factuur.
+                                            </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Vertegenwoordigers voedingssector.</td>
+                                            <td>100% aftrekbaar indien de vertegenwoordiger van de firma die producten verkoopt.</td>
+                                            <td>BTW niet aftrekbaar.
+                                            </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Huwelijksfeest.</td>
+                                            <td>69% aftrekbaar voor restaurantkosten. aftrekbaar ten belope van beroepsgedeelte. (te bewijzen via lijst uitgenodigde relaties)</td>
+                                            <td>BTW niet aftrekbaar.
+                                            </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Restaurantkosten in het buitenland.</td>
+                                            <td>69% aftrekbaar</td>
+                                            <td>BTW recupereerbaar volgens de in het buitenland geldende regels.
+                                            </td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        <div class="col-md-6">
+                            <div class="table-responsive">
+                            </div>
+                        </div>
+                    </div>
+                    <section id="partials">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <h3><i class="icon icon-folders"></i> Relatiegeschenken</h3>
+                                <hr>
+                                
+                                <table class="table table-bordered table-striped">
+                                    <thead>
+                                            <th scope="row" style="width: 15%;">Wat</th>
+                                            <th>Vennootschapsbelasting</th>
+                                            <th>BTW</th> 
+                                    </thead>
+                                    <tbody>
+                                    <tr>
+                                        <td>Algemene regel</td>
+                                            <td>69% aftrekbaar</td>
+                                            <td>Indien de kostprijs kleiner is dan 50 euro(excl BTW), dan is de BTW aftrekbaar.
+                                            Indien de kostprijs hoger is dan 50 euro(excl BTW),  dan is de BTW niet aftrekbaar.
+                                            Ook is het opletten als er meer dan één geschenk wordt gegeven die elk onder de 50 euro kosten. Als er in totaal boven de 50 euro gegeven wordt van dezelfde soort geschenken dan is de BTW niet aftrekbaar
+                                            </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Tabaksproducten en geestrijke dranken. (dranken boven de 20% alcohol.)</td>
+                                            <td>50% aftrekbaar</td>
+                                            <td>BTW niet aftrekbaar met uitzondering als het geschenk bestemd is voor wederverkoop of het verwerkt zal worden in andere spijzen dranken voor verkoop
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Geschenken in het buitenland tijdens een zakenreis.</td>
+                                            <td>100% aftrekbaar als de geschenken overhandigd zijn tijdens zakenreizen in het buitenland (geen belang waar het geschenk gekocht is)</td>
+                                            <td>Algemene regel toepassen
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Demonstratiekosten</td>
+                                            <td>100% aftrekbaar</td>
+                                            <td>BTW 100% aftrekbaar</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Reclameartikelen</td>
+                                            <td>100% aftrekbaar indien de naam van de schenker blijven en opvallend vermeld is</td>
+                                            <td>BTW 100% aftrekbaar</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Staaltjes</td>
+                                            <td>100% aftrekbaar voor producten die de onderneming zelf verkoopt of produceert</td>
+                                            <td>BTW 100% aftrekbaar. indien de goederen niet verschillen van de door de onderneming verkochte goederen</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Sponsoringen</td>
+                                            <td>100% aftrekbaar indien u er reclame voor terugkrijgt</td>
+                                            <td><strong>GELD</strong>: BTW toepasselijk, tenzij de gesponsorde vrijgesteld is van BTW <br>
+                                            <strong>NATURA</strong>: TW toepasselijk, tenzij de gesponsorde vrijgesteld is van BTW. Zonder tegenprestatie: BTW-correctie op afgestaan goed
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Toegangskaarten en abonnementen op culturele en sportieve manifestaties</td>
+                                            <td>100% aftrekbaar</td>
+                                            <td>BTW niet aftrekbaar</td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </section>
+                    <section id="onthaal">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h3><i class="icon icon-folders"></i> Onthaal- en receptiekosten</h3>
+                                    <hr>
+                                    
+                                    <table class="table table-bordered table-striped">
+                                        <thead>
+                                                <th scope="row" style="width: 15%;">Wat</th>
+                                                <th>Vennootschapsbelasting</th>
+                                                <th>BTW</th> 
+                                        </thead>
+                                        <tbody>
+                                        <tr>
+                                        <td>Algemene regel</td>
+                                            <td>50% aftrekbaar.</td>
+                                            <td>BTW niet aftrekbaar</td>
+                                        </tr>
+                                        <tr>
+                                        <td>Demonstratie- en degustatiekosten</td>
+                                            <td>100% aftrekbaar.</td>
+                                            <td>BTW 100% aftrekbaar</td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </section>
+                        <section id="personenwagen">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <h3><i class="icon icon-folders"></i> Personenwagens</h3>
+                                        <hr>
+                                        
+                                        <table class="table table-bordered table-striped">
+                                            <thead>
+                                                    <th scope="row">Wat</th>
+                                                    <th>Vennootschapsbelasting</th>
+                                                    <th>BTW</th> 
+                                            </thead>
+                                            <tbody>
+                                            
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </section>
+                            <section id="boeten">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <h3><i class="icon icon-folders"></i> Boeten</h3>
+                                            <hr>
+                                            
+                                            <table class="table table-bordered table-striped">
+                                                <thead>
+                                                        <th scope="row">Wat</th>
+                                                        <th>Vennootschapsbelasting</th>
+                                                        <th>BTW</th> 
+                                                </thead>
+                                                <tbody>
+                                                
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </section>
+                                <section id="sociale voordelen">
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <h3><i class="icon icon-folders"></i> Sociale voordelen</h3>
+                                                <hr>
+                                                
+                                                <table class="table table-bordered table-striped">
+                                                    <thead>
+                                                            <th scope="row">Wat</th>
+                                                            <th>Vennootschapsbelasting</th>
+                                                            <th>BTW</th> 
+                                                    </thead>
+                                                    <tbody>
+                                                    
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </section>
+                                    <section id="andere">
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <h3><i class="icon icon-folders"></i> Andere kosten</h3>
+                                                    <hr>
+                                                    
+                                                    <table class="table table-bordered table-striped">
+                                                        <thead>
+                                                                <th scope="row">Wat</th>
+                                                                <th>Vennootschapsbelasting</th>
+                                                                <th>BTW</th> 
+                                                        </thead>
+                                                        <tbody>
+                                                        
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                            </div>
+                                        </section>
+            </section>
+        </div>
+    </div>
+</main>
+<footer style="margin-top:90px;">
+    <div class="container">
+        <div class="row">
+            <div class=" col-lg-2 col-xl-3 col-12 responsive-phone"><a href="#" class="brand">
+                <img src="assets/img/basic/logo.png" alt="Knowledge">
+                <span class="circle"></span>
+            </a>
+            </div>
+            <div class="col-6  col-md-4 col-lg-2">
+                <h6>Quick Links</h6>
+                <ul class="footer-links">
+                    <li><a href="#">Features</a>
+                    </li>
+                    <li><a href="#">Blog</a>
+                    </li>
+                    <li><a href="#">Community</a>
+                    </li>
+                    <li><a href="login.html">Login</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-6  col-md-4 col-lg-2">
+                <h6>Knowledgebase</h6>
+                <ul class="footer-links">
+                    <li><a href="#">Features</a>
+                    </li>
+                    <li><a href="#">Blog</a>
+                    </li>
+                    <li><a href="#">Community</a>
+                    </li>
+                    <li><a href="login.html">Login</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-6  col-md-4 col-lg-2">
+                <h6>About Us</h6>
+                <ul class="footer-links">
+                    <li><a href="#">Features</a>
+                    </li>
+                    <li><a href="#">Blog</a>
+                    </li>
+                    <li><a href="#">Community</a>
+                    </li>
+                    <li><a href="login.html">Login</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-6 col-md-12 col-12 col-xl-3 responsive-phone">
+                <h6>Connect via Social</h6>
+                <ul class="social">
+                    <li class="facebook"><a href="#"><i class="icon icon-facebook"></i></a>
+                    </li>
+                    <li class="twitter"><a href="#"><i class="icon icon-twitter"></i></a>
+                    </li>
+                    <li class="gplus"><a href="#"><i class="icon icon-google-plus"></i></a>
+                    </li>
+                </ul>
+                <div class="copyrights">
+                    <p>&#xA9; 2018 Paper Knowledgebase Copyrights</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- Login modal -->
+<div class="modal fade" id="modalLogin" tabindex="-1" role="dialog" aria-labelledby="modalLogin">
+    <div class="modal-dialog width-400" role="document">
+        <div class="modal-content no-r "><a href="#" data-dismiss="modal" aria-label="Close"
+                                            class="paper-nav-toggle active"><i></i></a>
+            <div
+                    class="modal-body no-p">
+                <div class="text-center p-40 p-b-0">
+                    <img src="assets/img/dummy/u4.png" alt="">
+                    <h3>Welcome Back</h3>
+                    <p class="p-t-b-20">Hey Soldier welcome back signin now there is lot of new stuff waiting
+                        for you</p>
+                </div>
+                <div class="light p-40 b-t-b">
+                    <form action="dashboard2.html">
+                        <div class="form-group has-icon"><i class="icon-envelope-o"></i>
+                            <input type="text" class="form-control form-control-lg"
+                                   placeholder="Email Address">
+                        </div>
+                        <div class="form-group has-icon"><i class="icon-user-secret"></i>
+                            <input type="text" class="form-control form-control-lg"
+                                   placeholder="Password">
+                        </div>
+                        <input type="submit" class="btn btn-primary btn-lg btn-block" value="Log In">
+                        <small class="forget-pass">Have you forgot your username or password ?</small>
+                    </form>
+                </div>
+                <div class="p-40"><a href="#" class="btn btn-lg btn-block btn-social facebook">
+                    <i class="icon-facebook"></i> Login with Facebook
+                </a>
+                    <a href="#" class="btn btn-lg btn-block btn-social twitter">
+
+                        <i class="icon-twitter"></i> Login with Twitter
+
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- SignUp modal -->
+<div class="modal fade" id="modalSignUp" tabindex="-1" role="dialog" aria-labelledby="modalSignUp">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content no-r "><a href="#" data-dismiss="modal" aria-label="Close"
+                                            class="paper-nav-toggle active"><i></i></a>
+            <div
+                    class="modal-body no-p">
+                <div class="row">
+                    <div class="col-lg-5 grid">
+                        <div class="p-40">
+                            <h5 class="p-t-40">Sign Up Using Social Account</h5>
+                            <p class="p-t-b-20">Hey Soldier welcome back signin now there is lot of new stuff waiting
+                                for you</p> <a href="#" class="btn btn-lg btn-block btn-social facebook">
+                            <i class="icon-facebook"></i> Login with Facebook
+                        </a>
+                            <a href="#" class="btn btn-lg btn-block btn-social twitter">
+
+                                <i class="icon-twitter"></i> Login with Twitter
+
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-7">
+                        <div class="light p-t-b-40">
+                            <div class="p-40">
+                                <h5 class="p-b-20">Create New User Account</h5>
+                                <form action="dashboard2.html ">
+                                    <div class="form-group has-icon"><i class="icon-user-circle"></i>
+                                        <input type="text" class="form-control form-control-lg"
+                                               placeholder="Your Name">
+                                    </div>
+                                    <div class="form-group has-icon"><i class="icon-envelope-o"></i>
+                                        <input type="text" class="form-control form-control-lg"
+                                               placeholder="Email Address">
+                                    </div>
+                                    <div class="form-group has-icon"><i class="icon-user-secret"></i>
+                                        <input type="text" class="form-control form-control-lg"
+                                               placeholder="Password">
+                                    </div>
+                                    <div class="form-group has-icon"><i class="icon-repeat"></i>
+                                        <input type="text" class="form-control form-control-lg"
+                                               placeholder="Confirm Password">
+                                    </div>
+                                    <input type="submit" class="btn btn-primary btn-lg btn-block" value="Sign Up Now">
+                                    <p class="forget-pass">A verification email wil be sent to you</p>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<!--End Page page_wrrapper -->
+<script src="assets/js/app.js"></script>
+
+</body>
+</html>
